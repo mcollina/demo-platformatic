@@ -19,5 +19,6 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           platformatic_api_key: ${{ secrets.PLATFORMATIC_API_KEY }}
+          platformatic_config_path: ./platformatic.db.json
         env:
           plt_custom_variable: test1
