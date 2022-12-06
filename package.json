@@ -1,0 +1,25 @@
+{
+  "name": "demo-platformatic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcollina/demo-platformatic.git"
+  },
+  "keywords": [],
+  "author": "Matteo Collina <hello@matteocollina.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mcollina/demo-platformatic/issues"
+  },
+  "homepage": "https://github.com/mcollina/demo-platformatic#readme",
+  "devDependencies": {
+    "@platformatic/sql-graphql": "^0.9.2",
+    "@platformatic/sql-mapper": "^0.9.2",
+    "fastify": "^4.10.2"
+  }
+}
